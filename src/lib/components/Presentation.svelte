@@ -5,6 +5,10 @@
 	import Svelte from '$lib/images/svelte.png';
 	import coconut from '$lib/images/coconut.png';
 	import Meme from '$lib/images/meme.jpg';
+	import Demo from '$lib/images/todo.png';
+	import Bundle from '$lib/images/library_size.png';
+	import ReactCode from '$lib/images/react_code.png';
+	import SvelteCode from '$lib/images/svelte_code.png';
 </script>
 
 <Slide>
@@ -19,17 +23,55 @@
 		<img src={Indigo} alt="" class="h-20" />
 	</div>
 </Slide>
-
 <Slide>
-	<p class="text-white">WHAT is Svelte ?</p>
+	<Slide>
+		<p>WHAT is <strong>Svelte</strong> ?</p>
+	</Slide>
+	<Slide>
+		<p>
+			<strong>Svelte</strong> adalah sebuah compiler yang menghasilkan kode JavaScript yang minimal
+			dan sangat dioptimalkan dari kode komponen yang kita tulis <br /> <br /> <br />
+			<small>Sumber: MDN Web Docs</small>
+		</p>
+	</Slide>
 </Slide>
 
 <Slide>
-	<p class="text-white">Svelte Comparation</p>
+	<Slide>
+		<p class="text-white">Svelte Comparation</p>
+	</Slide>
+	<Slide>
+		<p>Ukuran Paket yang Digunakan</p>
+		<div class="flex justify-center">
+			<img src={Bundle} alt="" />
+		</div>
+	</Slide>
+	<Slide animate>
+		<p class="text-blue-600">Perbandingan Code</p>
+		<div class="flex justify-center">
+			<img src={ReactCode} alt="" />
+		</div>
+	</Slide>
+	<Slide animate>
+		<p class=" text-orange-500">Perbandingan Code</p>
+		<div class="flex justify-center">
+			<img src={SvelteCode} alt="" />
+		</div>
+	</Slide>
 </Slide>
-
 <Slide>
-	<p class="text-white">Svelte Feature</p>
+	<Slide>
+		<p class="text-white">Svelte Feature</p>
+	</Slide>
+	<Slide>
+		<ul>
+			<li>Ukuran Kode yang <strong>Kecil</strong></li>
+			<li>Efisiensi Runtime</li>
+			<li>Kode yang Sederhana dan Bersih</li>
+			<li>Reaktivitas Bawaan</li>
+			<li>Progressive Enhancement</li>
+		</ul>
+	</Slide>
 </Slide>
 
 <Slide>
@@ -42,19 +84,28 @@
 	<Slide>
 		<Code>
 			{`
-			function fly(){
-			
-			}
+			npm create svelte@latest
+
+			pnpx svelte-add tailwindcss
+
+
 			`}
 		</Code>
 	</Slide>
 </Slide>
-
 <Slide>
-	<p class="text-white">Lets Code!!</p>
-	<div class="flex justify-center">
-		<img src={Meme} alt="" />
-	</div>
+	<Slide>
+		<p>Lets Code!!</p>
+		<div class="flex justify-center">
+			<img src={Meme} alt="" />
+		</div>
+	</Slide>
+	<Slide>
+		<h4 class="text-white">Todo List App</h4>
+		<div class="flex justify-center">
+			<img src={Demo} alt="" />
+		</div>
+	</Slide>
 </Slide>
 
 <Slide>
