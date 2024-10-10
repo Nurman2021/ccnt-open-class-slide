@@ -20,7 +20,7 @@
 	<h3>THE FRONTEND FRAMEWORK OF THE FUTURE</h3>
 	<small>Presentation by <a href="https://noorman.vercel.app/">Nurman Awaluddin</a></small>
 	<div class="flex items-center justify-center gap-4 border-t border-gray-400">
-		<small class="text-2xl text-white">Sponsored by</small>
+		<small class="text-2xl text-white">Supported by</small>
 		<img src={coconut} alt="" class="h-20" />
 		<img src={Indigo} alt="" class="h-20" />
 	</div>
@@ -96,7 +96,7 @@
 			{`
 			npm create svelte@latest
 
-			pnpx svelte-add tailwindcss
+			npx svelte-add tailwindcss
 
 
 			`}
