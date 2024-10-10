@@ -9,6 +9,8 @@
 	import Bundle from '$lib/images/library_size.png';
 	import ReactCode from '$lib/images/react_code.png';
 	import SvelteCode from '$lib/images/svelte_code.png';
+	// import Terminal from '$lib/demo.mkv';
+	import Me from '$lib/images/my-photo.jpg';
 </script>
 
 <Slide>
@@ -72,6 +74,14 @@
 			<li>Progressive Enhancement</li>
 		</ul>
 	</Slide>
+	<Slide>
+		<div class="flex justify-center">
+			<img src={Me} alt="" class=" h-96" />
+		</div>
+	</Slide>
+	<!-- <Slide>
+		<video src={Terminal} autoplay></video>
+	</Slide> -->
 </Slide>
 
 <Slide>
