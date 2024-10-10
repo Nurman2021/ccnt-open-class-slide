@@ -12,7 +12,7 @@
 		<img src={Svelte} alt="logo svelte" class="mb-8 h-44" />
 	</div>
 	<h3>THE FRONTEND FRAMEWORK OF THE FUTURE</h3>
-	<small>Presentation by <a href="/nurman">Nurman Awaluddin</a></small>
+	<small>Presentation by <a href="https://noorman.vercel.app/">Nurman Awaluddin</a></small>
 	<div class="flex items-center justify-center gap-4 border-t border-gray-400">
 		<small class="text-2xl text-white">Sponsored by</small>
 		<img src={coconut} alt="" class="h-20" />
