@@ -32,6 +32,7 @@
 		"@fontsource/jetbrains-mono": "^5.1.0",
 		"@fontsource/manrope": "^5.1.0",
 		"@types/reveal.js": "^5.0.4",
+		"lucide-svelte": "^0.452.0",
 		"reveal.js": "^5.1.0"
 	}
 }

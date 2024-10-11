@@ -85,7 +85,7 @@
 			<li>Efisiensi Runtime</li>
 			<li>Kode yang Sederhana dan Bersih</li>
 			<li>Reaktivitas Bawaan</li>
-			<li>Progressive Enhancement</li>
+			<li>No Virtual DOM</li>
 		</ul>
 	</Slide>
 	<Slide>
