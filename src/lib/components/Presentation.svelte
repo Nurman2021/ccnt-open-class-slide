@@ -4,7 +4,7 @@
 	import Indigo from '$lib/images/indigohub.png';
 	import Svelte from '$lib/images/svelte.png';
 	import coconut from '$lib/images/coconut.png';
-	import Meme from '$lib/images/meme.jpg';
+	import Meme from '$lib/images/meme.png';
 	import Demo from '$lib/images/todo.png';
 	import Bundle from '$lib/images/library_size.png';
 	import ReactCode from '$lib/images/react_code.png';
