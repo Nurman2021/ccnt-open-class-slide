@@ -60,9 +60,13 @@
 					{/if}
 					<div class="flex gap-2">
 						{#if todo.editing}
-							<button on:click={() => editTodo(i, false)}><Save /></button>
+							<button class="hover:text-green-400" on:click={() => editTodo(i, false)}
+								><Save /></button
+							>
 						{:else}
-							<button on:click={() => editTodo(i, true)}><Pencil /></button>
+							<button class="hover:text-yellow-400" on:click={() => editTodo(i, true)}
+								><Pencil /></button
+							>
 						{/if}
 						<button class="hover:text-red-600" on:click={() => deleteTodo(i)}><Trash2 /></button>
 					</div>
