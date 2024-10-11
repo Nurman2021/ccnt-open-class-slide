@@ -9,6 +9,9 @@
 	import Bundle from '$lib/images/library_size.png';
 	import ReactCode from '$lib/images/react_code.png';
 	import SvelteCode from '$lib/images/svelte_code.png';
+	import ReactRoute from '$lib/images/react_route.png';
+	import SvelteRoute from '$lib/images/svelte_route.png';
+
 	// import Terminal from '$lib/demo.mkv';
 	import Me from '$lib/images/my-photo.jpg';
 </script>
@@ -49,15 +52,27 @@
 		</div>
 	</Slide>
 	<Slide animate>
-		<p class="text-blue-600">Perbandingan Code</p>
+		<p class="text-blue-600">Perbandingan Kode</p>
 		<div class="flex justify-center">
 			<img src={ReactCode} alt="" />
 		</div>
 	</Slide>
 	<Slide animate>
-		<p class=" text-orange-500">Perbandingan Code</p>
+		<p class="text-orange-500">Perbandingan Kode</p>
 		<div class="flex justify-center">
 			<img src={SvelteCode} alt="" />
+		</div>
+	</Slide>
+	<Slide animate>
+		<p class=" text-blue-600">Routing</p>
+		<div class="flex justify-center">
+			<img src={ReactRoute} alt="" class=" max-h-screen" />
+		</div>
+	</Slide>
+	<Slide animate>
+		<p class=" text-orange-500">Routing</p>
+		<div class="flex justify-center">
+			<img src={SvelteRoute} alt="" class="h-4/5" />
 		</div>
 	</Slide>
 </Slide>
@@ -76,7 +91,7 @@
 	</Slide>
 	<Slide>
 		<div class="flex justify-center">
-			<img src={Me} alt="" class=" h-96" />
+			<img src={Me} alt="" class=" h-4/5" />
 		</div>
 	</Slide>
 	<!-- <Slide>
@@ -106,6 +121,7 @@
 <Slide>
 	<Slide>
 		<p>Lets Code!!</p>
+
 		<div class="flex justify-center">
 			<img src={Meme} alt="" />
 		</div>
