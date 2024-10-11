@@ -12,7 +12,6 @@
 	import ReactRoute from '$lib/images/react_route.png';
 	import SvelteRoute from '$lib/images/svelte_route.png';
 
-	// import Terminal from '$lib/demo.mkv';
 	import Me from '$lib/images/my-photo.jpg';
 </script>
 
@@ -94,9 +93,15 @@
 			<img src={Me} alt="" class=" h-4/5" />
 		</div>
 	</Slide>
-	<!-- <Slide>
-		<video src={Terminal} autoplay></video>
-	</Slide> -->
+	<Slide>
+		<video
+			src="https://ik.imagekit.io/nurman/terminal-demo.mp4?updatedAt=1728612318699"
+			autoplay
+			controls
+		>
+			<track kind="captions" />
+		</video>
+	</Slide>
 </Slide>
 
 <Slide>
